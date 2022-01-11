@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Viewer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Table Viewer</div>
+        <hr />
+        <p th:text="${ekspedisi}"></p>
+        <table border="||">
+            <tr th:each="baki:${tabel}">
+                <td th:text="${baki[1]}"></td>
+                <td th:text="${baki[2]}"></td>
+                <td th:text="${baki[3]}"></td>
+                <td th:text="${baki[4]}"></td>
+                <td th:text="${baki[5]}"></td>
+                <td th:text="${baki[6]}"></td>
+                <td th:text="${baki[7]}"></td>
+                <td th:text="${baki[8]}"></td>
+                <td th:text="${baki[9]}"></td>
+                <td th:text="${baki[10]}"></td>
+                <td th:text="${baki[11]}"></td>
+                <td th:text="${baki[12]}"></td>
+                <td th:text="${baki[13]}"></td>
+                <td th:text="${baki[14]}"></td>
+                <td th:text="${baki[15]}"></td>
+                <td th:text="${baki[16]}"></td>
+                <td th:text="${baki[17]}"></td>
+                <td th:text="${baki[18]}"></td>
+                <td th:text="${baki[19]}"></td>
+                <td th:text="${baki[20]}"></td>
+            </tr>
+        </table>
+    </body>
+</html>
